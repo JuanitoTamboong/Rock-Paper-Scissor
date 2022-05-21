@@ -50,3 +50,7 @@ function getResult(){
     }
     resultDisplay.innerHTML = result
 }
+const play = () =>
+document.getElementById("song").play();
+window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
